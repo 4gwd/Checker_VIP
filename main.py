@@ -274,27 +274,4 @@ def send_file(message):
 		time.sleep(30)
 		
 
-bot.polling()e vault." in msg or "Payment method successfully added." in msg or "woocommerce-message" in msg:
-			app+=1
-			msg="Approved ✅"
-			re="Approved. ✅"
-			color='\033[1;32m'
-			mjj=binn(cc,c,re)
-			bot.send_message(message.chat.id,f"{mjj}",parse_mode='html')
-		
-		
-		key = types.InlineKeyboardMarkup(row_width=1)
-		ccli = types.InlineKeyboardButton(f" {g} ☢", callback_data="cclist")
-		ccnn = types.InlineKeyboardButton(f" ccn good : {ccn} ❎", callback_data="cvv")
-		cvvv = types.InlineKeyboardButton(f" cvv good : {cvv} ❎", callback_data="cvv")
-		ap = types.InlineKeyboardButton(f" approved : {app} ✅", callback_data="aproved")
-		badd = types.InlineKeyboardButton(f" stauts : {msg} ❕", callback_data="baad")
-		nch = types.InlineKeyboardButton(f" num chk : {nc} 💱", callback_data="chk")
-		own = types.InlineKeyboardButton(f"OWNAR", url="https://t.me/ch4kscript")
-		key.add(ccli,badd,nch,ap,ccnn, cvvv,own )
-		bot.edit_message_text(chat_id=message.chat.id, message_id=idmss.message_id,text="Checker Run ✔", reply_markup=key)
-		time.sleep(37)
-		
-
-print("STARTED BOT @Q_2_M")
-bot.infinity_polling()
+bot.polling()

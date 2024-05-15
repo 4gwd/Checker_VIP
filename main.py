@@ -1,4 +1,5 @@
 import os
+os.system('pip install pycountry')
 import requests
 from bs4 import BeautifulSoup
 import telebot

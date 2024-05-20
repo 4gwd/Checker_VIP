@@ -28,7 +28,7 @@ print(C+k)
 print(Z+lo)
 print(X+i)
 o=("")
-NMF = "ccs.txt"
+NMF = "cc.txt"
 print(C+i)
 	
 file=open(NMF,"+r")

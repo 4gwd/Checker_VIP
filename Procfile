@@ -1,1 +1,1 @@
-worker: python Checker_VIP.py
+worker: python main.py

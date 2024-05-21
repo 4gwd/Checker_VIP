@@ -40,7 +40,7 @@ print(X+logo)
 lo=("Dev: TAKEMICHI ~ @Q_2_M")
 print(C+lo)
 	
-combo='cc.txt'
+combo='552115'
 file=open(f'{combo}',"+r")
 token = '7006018704:AAFUUEwkJ2FAb1jGlhCqpXIKaWL5MRfv_pU'
 ID = '1839018065'

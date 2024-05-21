@@ -43,7 +43,7 @@ print(C+lo)
 combo='552115'
 file=open(f'{combo}',"+r")
 token = '7006018704:AAFUUEwkJ2FAb1jGlhCqpXIKaWL5MRfv_pU'
-ID = '1839018065'
+ID = '7107943289'
 o=("==================================================================")
 print(Z+o)
 
